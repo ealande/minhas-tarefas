@@ -7,12 +7,12 @@ const BarraLateral = () => (
     <div>
       <S.Campo type="text" placeholder="Buscar"></S.Campo>
       <S.Filtros>
-        <FiltroCard legenda="pendentes" contador={1} />
-        <FiltroCard legenda="finished" contador={2} />
-        <FiltroCard legenda="urgent" contador={2} />
-        <FiltroCard legenda="important" contador={5} />
-        <FiltroCard legenda="normal" contador={4} />
-        <FiltroCard legenda="todas" contador={3} ativo />
+        <FiltroCard legenda="Pendente" contador={1} />
+        <FiltroCard legenda="Concluída" contador={2} />
+        <FiltroCard legenda="Urgente" contador={2} />
+        <FiltroCard legenda="Importante" contador={5} />
+        <FiltroCard legenda="Normal" contador={4} />
+        <FiltroCard legenda="All" contador={14} ativo />
       </S.Filtros>
     </div>
   </S.Aside>
